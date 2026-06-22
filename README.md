@@ -1,4 +1,4 @@
-# 🧠 LSTM Under The Hood: Benchmarking Recurrent Architectures
+# LSTM Under The Hood: Benchmarking Recurrent Architectures
 
 An engineering deep-dive into Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks. This project implements sequential neural networks from scratch using PyTorch primitives (`nn.Linear`) and benchmarks them against native PyTorch C++/CUDA implementations.
 
