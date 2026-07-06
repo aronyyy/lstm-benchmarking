@@ -21,7 +21,7 @@ By extracting the gradient magnitudes of a 150-step sequence with respect to the
 
 ![Vanishing Gradient Proof](assets/vanishing_gradient.png)
 * **Vanilla RNN:** Gradients decay exponentially to zero, completely destroying the network's ability to learn long-term dependencies.
-* **LSTM:** The additive cell-state and forget gates successfully preserve the gradient magnitude horizontally across the entire sequence.
+* **LSTM:** The additive cell state and forget gates successfully preserve the gradient magnitude horizontally across the entire sequence.
 
 ### 2. Execution Overhead & Fused Kernels
 Manually stepping through temporal sequence loops in Python creates massive I/O overhead. Benchmarking revealed the massive performance gap between manual unrolled loops and framework-level C++ optimizations.
